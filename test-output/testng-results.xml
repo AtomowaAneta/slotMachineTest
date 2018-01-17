@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="18" passed="18">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Slot Machine Suite" duration-ms="117896" started-at="2018-01-17T21:11:48Z" finished-at="2018-01-17T21:13:46Z">
+    <groups>
+    </groups>
+    <test name="Machine game check" duration-ms="23312" started-at="2018-01-17T21:11:48Z" finished-at="2018-01-17T21:12:11Z">
+      <class name="MachineGameTest">
+        <test-method status="PASS" signature="setUpDriverBeforeTestSuite()[pri:0, instance:MachineGameTest@2a5ca609]" name="setUpDriverBeforeTestSuite" is-config="true" duration-ms="4206" started-at="2018-01-17T22:11:48Z" finished-at="2018-01-17T22:11:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriverBeforeTestSuite -->
+        <test-method status="PASS" signature="setUpBeforeTestCase()[pri:0, instance:MachineGameTest@2a5ca609]" name="setUpBeforeTestCase" is-config="true" duration-ms="5304" started-at="2018-01-17T22:11:52Z" finished-at="2018-01-17T22:11:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestCase -->
+        <test-method status="PASS" signature="testIfWinLastWinFieldWillNotBeEmpty()[pri:0, instance:MachineGameTest@2a5ca609]" name="testIfWinLastWinFieldWillNotBeEmpty" duration-ms="6364" started-at="2018-01-17T22:11:58Z" finished-at="2018-01-17T22:12:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIfWinLastWinFieldWillNotBeEmpty -->
+        <test-method status="PASS" signature="setUpBeforeTestCase()[pri:0, instance:MachineGameTest@2a5ca609]" name="setUpBeforeTestCase" is-config="true" duration-ms="1214" started-at="2018-01-17T22:12:04Z" finished-at="2018-01-17T22:12:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestCase -->
+        <test-method status="PASS" signature="testWhenBetValueIs1AfterSpinClickTotalSpinCounterWillBeChangedBy1()[pri:0, instance:MachineGameTest@2a5ca609]" name="testWhenBetValueIs1AfterSpinClickTotalSpinCounterWillBeChangedBy1" duration-ms="1324" started-at="2018-01-17T22:12:05Z" finished-at="2018-01-17T22:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWhenBetValueIs1AfterSpinClickTotalSpinCounterWillBeChangedBy1 -->
+        <test-method status="PASS" signature="setUpBeforeTestCase()[pri:0, instance:MachineGameTest@2a5ca609]" name="setUpBeforeTestCase" is-config="true" duration-ms="970" started-at="2018-01-17T22:12:07Z" finished-at="2018-01-17T22:12:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestCase -->
+        <test-method status="PASS" signature="testWhenBetValueIs4AfterSpinClickTotalSpinCounterWillNotBeChangedBy2()[pri:0, instance:MachineGameTest@2a5ca609]" name="testWhenBetValueIs4AfterSpinClickTotalSpinCounterWillNotBeChangedBy2" duration-ms="1402" started-at="2018-01-17T22:12:08Z" finished-at="2018-01-17T22:12:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWhenBetValueIs4AfterSpinClickTotalSpinCounterWillNotBeChangedBy2 -->
+        <test-method status="PASS" signature="setUpBeforeTestCase()[pri:0, instance:MachineGameTest@2a5ca609]" name="setUpBeforeTestCase" is-config="true" duration-ms="1728" started-at="2018-01-17T22:12:09Z" finished-at="2018-01-17T22:12:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestCase -->
+        <test-method status="PASS" signature="testWhenGameIsInProgressSpinButtonCanNotBeClicked()[pri:0, instance:MachineGameTest@2a5ca609]" name="testWhenGameIsInProgressSpinButtonCanNotBeClicked" duration-ms="694" started-at="2018-01-17T22:12:11Z" finished-at="2018-01-17T22:12:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWhenGameIsInProgressSpinButtonCanNotBeClicked -->
+        <test-method status="PASS" signature="doAfterTestCase()[pri:0, instance:MachineGameTest@2a5ca609]" name="doAfterTestCase" is-config="true" duration-ms="58" started-at="2018-01-17T22:12:11Z" finished-at="2018-01-17T22:12:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterTestCase -->
+      </class> <!-- MachineGameTest -->
+    </test> <!-- Machine game check -->
+    <test name="Machine win chart checks" duration-ms="13073" started-at="2018-01-17T21:12:12Z" finished-at="2018-01-17T21:12:25Z">
+      <class name="MachineWinChartTest">
+        <test-method status="PASS" signature="setUpDriverBeforeTestSuite()[pri:0, instance:MachineWinChartTest@29774679]" name="setUpDriverBeforeTestSuite" is-config="true" duration-ms="3448" started-at="2018-01-17T22:12:12Z" finished-at="2018-01-17T22:12:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriverBeforeTestSuite -->
+        <test-method status="PASS" signature="setUpBeforeTestCase()[pri:0, instance:MachineWinChartTest@29774679]" name="setUpBeforeTestCase" is-config="true" duration-ms="5162" started-at="2018-01-17T22:12:15Z" finished-at="2018-01-17T22:12:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestCase -->
+        <test-method status="PASS" signature="testIfInitialValueForTrPrize32Is200()[pri:0, instance:MachineWinChartTest@29774679]" name="testIfInitialValueForTrPrize32Is200" duration-ms="86" started-at="2018-01-17T22:12:20Z" finished-at="2018-01-17T22:12:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIfInitialValueForTrPrize32Is200 -->
+        <test-method status="PASS" signature="setUpBeforeTestCase()[pri:0, instance:MachineWinChartTest@29774679]" name="setUpBeforeTestCase" is-config="true" duration-ms="1096" started-at="2018-01-17T22:12:20Z" finished-at="2018-01-17T22:12:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestCase -->
+        <test-method status="PASS" signature="testIfInitialValueForTrPrize33IsNot100()[pri:0, instance:MachineWinChartTest@29774679]" name="testIfInitialValueForTrPrize33IsNot100" duration-ms="71" started-at="2018-01-17T22:12:21Z" finished-at="2018-01-17T22:12:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIfInitialValueForTrPrize33IsNot100 -->
+        <test-method status="PASS" signature="setUpBeforeTestCase()[pri:0, instance:MachineWinChartTest@29774679]" name="setUpBeforeTestCase" is-config="true" duration-ms="942" started-at="2018-01-17T22:12:21Z" finished-at="2018-01-17T22:12:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestCase -->
+        <test-method status="PASS" signature="testIfInitialValuesInWinChartAreCorrect()[pri:0, instance:MachineWinChartTest@29774679]" name="testIfInitialValuesInWinChartAreCorrect" duration-ms="209" started-at="2018-01-17T22:12:22Z" finished-at="2018-01-17T22:12:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIfInitialValuesInWinChartAreCorrect -->
+        <test-method status="PASS" signature="setUpBeforeTestCase()[pri:0, instance:MachineWinChartTest@29774679]" name="setUpBeforeTestCase" is-config="true" duration-ms="971" started-at="2018-01-17T22:12:23Z" finished-at="2018-01-17T22:12:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestCase -->
+        <test-method status="PASS" signature="testIfWhenBetIs3AllValuesFromWinChartAreTripled()[pri:0, instance:MachineWinChartTest@29774679]" name="testIfWhenBetIs3AllValuesFromWinChartAreTripled" duration-ms="1033" started-at="2018-01-17T22:12:24Z" finished-at="2018-01-17T22:12:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIfWhenBetIs3AllValuesFromWinChartAreTripled -->
+        <test-method status="PASS" signature="doAfterTestCase()[pri:0, instance:MachineWinChartTest@29774679]" name="doAfterTestCase" is-config="true" duration-ms="52" started-at="2018-01-17T22:12:25Z" finished-at="2018-01-17T22:12:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterTestCase -->
+      </class> <!-- MachineWinChartTest -->
+    </test> <!-- Machine win chart checks -->
+    <test name="Machine checks" duration-ms="5124" started-at="2018-01-17T21:12:25Z" finished-at="2018-01-17T21:12:30Z">
+      <class name="MachineCheckTest">
+        <test-method status="PASS" signature="setUpBeforeTestCase()[pri:0, instance:MachineCheckTest@47c62251]" name="setUpBeforeTestCase" is-config="true" duration-ms="4992" started-at="2018-01-17T22:12:25Z" finished-at="2018-01-17T22:12:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestCase -->
+        <test-method status="PASS" signature="testIfMachine1IsSelectedAfterVisitingWebsite()[pri:0, instance:MachineCheckTest@47c62251]" name="testIfMachine1IsSelectedAfterVisitingWebsite" duration-ms="40" started-at="2018-01-17T22:12:30Z" finished-at="2018-01-17T22:12:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIfMachine1IsSelectedAfterVisitingWebsite -->
+        <test-method status="PASS" signature="testIfMachine4IsNotSelectedAfterVisitingWebSite()[pri:0, instance:MachineCheckTest@47c62251]" name="testIfMachine4IsNotSelectedAfterVisitingWebSite" duration-ms="44" started-at="2018-01-17T22:12:30Z" finished-at="2018-01-17T22:12:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIfMachine4IsNotSelectedAfterVisitingWebSite -->
+        <test-method status="PASS" signature="doAfterTestCase()[pri:0, instance:MachineCheckTest@47c62251]" name="doAfterTestCase" is-config="true" duration-ms="46" started-at="2018-01-17T22:12:30Z" finished-at="2018-01-17T22:12:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterTestCase -->
+      </class> <!-- MachineCheckTest -->
+    </test> <!-- Machine checks -->
+    <test name="Machine icons checks" duration-ms="9348" started-at="2018-01-17T21:12:30Z" finished-at="2018-01-17T21:12:39Z">
+      <class name="MachineIconTest">
+        <test-method status="PASS" signature="setUpDriverBeforeTestSuite()[pri:0, instance:MachineIconTest@1bce4f0a]" name="setUpDriverBeforeTestSuite" is-config="true" duration-ms="3250" started-at="2018-01-17T22:12:30Z" finished-at="2018-01-17T22:12:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriverBeforeTestSuite -->
+        <test-method status="PASS" signature="setUpBeforeTestCase()[pri:0, instance:MachineIconTest@1bce4f0a]" name="setUpBeforeTestCase" is-config="true" duration-ms="4953" started-at="2018-01-17T22:12:33Z" finished-at="2018-01-17T22:12:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestCase -->
+        <test-method status="PASS" signature="testIfAfterPageIsVisitedInitialMachineIconIsNotReelSet3()[pri:0, instance:MachineIconTest@1bce4f0a]" name="testIfAfterPageIsVisitedInitialMachineIconIsNotReelSet3" duration-ms="106" started-at="2018-01-17T22:12:38Z" finished-at="2018-01-17T22:12:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIfAfterPageIsVisitedInitialMachineIconIsNotReelSet3 -->
+        <test-method status="PASS" signature="setUpBeforeTestCase()[pri:0, instance:MachineIconTest@1bce4f0a]" name="setUpBeforeTestCase" is-config="true" duration-ms="966" started-at="2018-01-17T22:12:38Z" finished-at="2018-01-17T22:12:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestCase -->
+        <test-method status="PASS" signature="testIfAfterPageIsVisitedInitialMachineIconIsReelSet1()[pri:0, instance:MachineIconTest@1bce4f0a]" name="testIfAfterPageIsVisitedInitialMachineIconIsReelSet1" duration-ms="31" started-at="2018-01-17T22:12:39Z" finished-at="2018-01-17T22:12:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIfAfterPageIsVisitedInitialMachineIconIsReelSet1 -->
+        <test-method status="PASS" signature="doAfterTestCase()[pri:0, instance:MachineIconTest@1bce4f0a]" name="doAfterTestCase" is-config="true" duration-ms="40" started-at="2018-01-17T22:12:39Z" finished-at="2018-01-17T22:12:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterTestCase -->
+      </class> <!-- MachineIconTest -->
+    </test> <!-- Machine icons checks -->
+    <test name="Machine bet checks" duration-ms="66903" started-at="2018-01-17T21:12:39Z" finished-at="2018-01-17T21:13:46Z">
+      <class name="MachineCheckTest">
+        <test-method status="PASS" signature="setUpDriverBeforeTestSuite()[pri:0, instance:MachineCheckTest@47c62251]" name="setUpDriverBeforeTestSuite" is-config="true" duration-ms="6646" started-at="2018-01-17T22:11:42Z" finished-at="2018-01-17T22:11:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriverBeforeTestSuite -->
+      </class> <!-- MachineCheckTest -->
+      <class name="MachineBetTest">
+        <test-method status="PASS" signature="setUpDriverBeforeTestSuite()[pri:0, instance:MachineBetTest@6a41eaa2]" name="setUpDriverBeforeTestSuite" is-config="true" duration-ms="3273" started-at="2018-01-17T22:12:39Z" finished-at="2018-01-17T22:12:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriverBeforeTestSuite -->
+        <test-method status="PASS" signature="setUpBeforeTestCase()[pri:0, instance:MachineBetTest@6a41eaa2]" name="setUpBeforeTestCase" is-config="true" duration-ms="5026" started-at="2018-01-17T22:12:42Z" finished-at="2018-01-17T22:12:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestCase -->
+        <test-method status="PASS" signature="testIf10IsTheMaximumBetValue()[pri:0, instance:MachineBetTest@6a41eaa2]" name="testIf10IsTheMaximumBetValue" duration-ms="13698" started-at="2018-01-17T22:12:47Z" finished-at="2018-01-17T22:13:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIf10IsTheMaximumBetValue -->
+        <test-method status="PASS" signature="setUpBeforeTestCase()[pri:0, instance:MachineBetTest@6a41eaa2]" name="setUpBeforeTestCase" is-config="true" duration-ms="2756" started-at="2018-01-17T22:13:01Z" finished-at="2018-01-17T22:13:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestCase -->
+        <test-method status="PASS" signature="testIf1IsTheMinimumBetValue()[pri:0, instance:MachineBetTest@6a41eaa2]" name="testIf1IsTheMinimumBetValue" duration-ms="4096" started-at="2018-01-17T22:13:04Z" finished-at="2018-01-17T22:13:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIf1IsTheMinimumBetValue -->
+        <test-method status="PASS" signature="setUpBeforeTestCase()[pri:0, instance:MachineBetTest@6a41eaa2]" name="setUpBeforeTestCase" is-config="true" duration-ms="1642" started-at="2018-01-17T22:13:08Z" finished-at="2018-01-17T22:13:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestCase -->
+        <test-method status="PASS" signature="testIf8ClicksBetSpinUpAnd3BetSpinDownBetValueIs6()[pri:0, instance:MachineBetTest@6a41eaa2]" name="testIf8ClicksBetSpinUpAnd3BetSpinDownBetValueIs6" duration-ms="17298" started-at="2018-01-17T22:13:10Z" finished-at="2018-01-17T22:13:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIf8ClicksBetSpinUpAnd3BetSpinDownBetValueIs6 -->
+        <test-method status="PASS" signature="setUpBeforeTestCase()[pri:0, instance:MachineBetTest@6a41eaa2]" name="setUpBeforeTestCase" is-config="true" duration-ms="1659" started-at="2018-01-17T22:13:27Z" finished-at="2018-01-17T22:13:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestCase -->
+        <test-method status="PASS" signature="testIfAfter4ClicksBetSpinUpBetValueIsNot4()[pri:0, instance:MachineBetTest@6a41eaa2]" name="testIfAfter4ClicksBetSpinUpBetValueIsNot4" duration-ms="5330" started-at="2018-01-17T22:13:29Z" finished-at="2018-01-17T22:13:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIfAfter4ClicksBetSpinUpBetValueIsNot4 -->
+        <test-method status="PASS" signature="setUpBeforeTestCase()[pri:0, instance:MachineBetTest@6a41eaa2]" name="setUpBeforeTestCase" is-config="true" duration-ms="1639" started-at="2018-01-17T22:13:34Z" finished-at="2018-01-17T22:13:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestCase -->
+        <test-method status="PASS" signature="testIfAfterEachClickProperBetValueIsSet()[pri:0, instance:MachineBetTest@6a41eaa2]" name="testIfAfterEachClickProperBetValueIsSet" duration-ms="8073" started-at="2018-01-17T22:13:36Z" finished-at="2018-01-17T22:13:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIfAfterEachClickProperBetValueIsSet -->
+        <test-method status="PASS" signature="setUpBeforeTestCase()[pri:0, instance:MachineBetTest@6a41eaa2]" name="setUpBeforeTestCase" is-config="true" duration-ms="1695" started-at="2018-01-17T22:13:44Z" finished-at="2018-01-17T22:13:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestCase -->
+        <test-method status="PASS" signature="testIfInitialBetValueIs1()[pri:0, instance:MachineBetTest@6a41eaa2]" name="testIfInitialBetValueIs1" duration-ms="671" started-at="2018-01-17T22:13:45Z" finished-at="2018-01-17T22:13:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIfInitialBetValueIs1 -->
+        <test-method status="PASS" signature="doAfterTestCase()[pri:0, instance:MachineBetTest@6a41eaa2]" name="doAfterTestCase" is-config="true" duration-ms="45" started-at="2018-01-17T22:13:46Z" finished-at="2018-01-17T22:13:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterTestCase -->
+        <test-method status="PASS" signature="doAfterTestSuite()[pri:0, instance:MachineBetTest@6a41eaa2]" name="doAfterTestSuite" is-config="true" duration-ms="0" started-at="2018-01-17T22:13:46Z" finished-at="2018-01-17T22:13:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterTestSuite -->
+        <test-method status="PASS" signature="doAfterTestSuite()[pri:0, instance:MachineIconTest@1bce4f0a]" name="doAfterTestSuite" is-config="true" duration-ms="5" started-at="2018-01-17T22:13:46Z" finished-at="2018-01-17T22:13:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterTestSuite -->
+        <test-method status="PASS" signature="doAfterTestSuite()[pri:0, instance:MachineCheckTest@47c62251]" name="doAfterTestSuite" is-config="true" duration-ms="0" started-at="2018-01-17T22:13:46Z" finished-at="2018-01-17T22:13:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterTestSuite -->
+      </class> <!-- MachineBetTest -->
+    </test> <!-- Machine bet checks -->
+  </suite> <!-- Slot Machine Suite -->
+</testng-results>

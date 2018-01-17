@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Slot Machine Suite" verbose="10">
+    <parameter name="browser" value="chrome" />
+    <parameter name="url" value="http://slotmachinescript.com/" />
+
+    <test name = "Machine game check" preserve-order="true">
+        <classes>
+            <class name="MachineGameTest">
+            </class>
+        </classes>
+    </test>
+
+    <test name = "Machine win chart checks" preserve-order="true">
+        <classes>
+            <class name="MachineWinChartTest">
+            </class>
+        </classes>
+    </test>
+
+
+    <test name = "Machine checks" preserve-order="true">
+        <classes>
+            <class name="MachineCheckTest">
+            </class>
+        </classes>
+    </test>
+
+    <test name = "Machine icons checks" preserve-order="true">
+        <classes>
+            <class name="MachineIconTest">
+            </class>
+        </classes>
+    </test>
+    <test name = "Machine bet checks" preserve-order="true">
+        <classes>
+            <class name="MachineBetTest">
+            </class>
+        </classes>
+    </test>
+
+
+
+</suite>
